@@ -19,10 +19,21 @@
            <li><a href="#">Contato</a></li>
         </ul><!-- menu-dekstop --->
         <div class="clear"></div><!-- clear --->
+        <br/>
+        <br/>
+        <div class="w50 time-descricao">
+        <h2>Melhore a comunicação com o seu cliente e time.</h2>
+        <p>Consultoria especializada em startups,empresas,principalmente pessoas.</p>
+        <a  target="_blank" href="#">Ver demonstração</a>
+        </div><!-- w50 --->
+        <div class="w50 time-imagem">
+            <img src="images/equipe.png"/>
+        </div><!-- w50 --->  
+        <div class="clear"></div>  
     </div><!-- center --->
 </section><!-- topo --->
 </body>
-
+</html>
 
 
 
