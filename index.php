@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet"> 
+    <a href="https://icons8.com/icon/99991/divisa-para-baixo"></a>
     <title>Lília de Tássia - Tema</title>
 </head>
 <body>
@@ -29,13 +30,22 @@
         <div class="w50 time-imagem">
             <img src="images/equipe.png"/>
         </div><!-- w50 --->  
-        <div class="clear2"></div>  
+        <div class="clear"></div>  
     </div><!-- center --->
 </section><!-- topo --->
+<div class="circle">
+    <img  src="https://img.icons8.com/ios-glyphs/30/000000/chevron-down.png"/>
+</div>
+<section class="clientes-slider">
+
+<div class="center">
+</div><!-- center --->
+</section>
+
 <script src="js/jquery.js"></script>
 <script src="js/slick.min.js"></script>
 <script type="text/javascript">
-    $('.container-slider').slick({
+    $('.section.clientes-slider .slider-container').slick({
       dots: true,
       arrows:false,
       infinite: true,
@@ -46,7 +56,16 @@
       autoplay: true,
       autoplaySpeed: 3000,
       pauseOnHover:false
-    });
+      responsive: 
+	    [
+	    {
+	      breakpoint: 768,
+	      settings: {
+	        slidesToShow: 2
+	      }
+	    }
+	    ]
+	});
 </script>
 </body>
 </html>
