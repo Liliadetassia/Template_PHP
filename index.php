@@ -33,30 +33,37 @@
         <div class="clear"></div>  
     </div><!-- center --->
 </section><!-- topo --->
-<div class="circle">
-    <img  src="https://img.icons8.com/ios-glyphs/30/000000/chevron-down.png"/>
-</div>
+    <div class="circle">
+    <img class="arrow" src="https://img.icons8.com/ios-glyphs/30/000000/chevron-down.png"/>
+    </div>
+
 <section class="clientes-slider">
 
-<div class="center">
-</div><!-- center --->
+  <div class="center">
+  <div style="max-width: 500px;margin: 0 auto;overflow: hidden;padding-top:70px;" class="slider-container">
+    <img src="images/amazon.jpg"/>
+    <img src="images/costco.jpg"/>
+    <img src="images/dominos.jpg"/>
+    <img src="images/uber.jpg"/>
+    <img src="images/walmart.jpg"/>
+  </div>  
+  </div><!-- center --->
 </section>
 
 <script src="js/jquery.js"></script>
 <script src="js/slick.min.js"></script>
 <script type="text/javascript">
-    $('.section.clientes-slider .slider-container').slick({
+    $('section.clientes-slider .slider-container').slick({
       dots: true,
-      arrows:false,
-      infinite: true,
-      centerMode: true,
-      centerPadding:0,
-      speed:1000,
-      slidesToShow: 1,
-      autoplay: true,
-      autoplaySpeed: 3000,
-      pauseOnHover:false
-      responsive: 
+		  arrows:false,
+	    infinite: false,
+	    speed:1000,
+	    slidesToShow: 4,
+	    autoplay: true,
+	    centerMode:false,
+	    autoplaySpeed: 3000,
+	    pauseOnHover:false,
+	    responsive: 
 	    [
 	    {
 	      breakpoint: 768,
